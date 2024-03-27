@@ -1,0 +1,110 @@
+span[class~="sr-only"] {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    width: 1px !important;
+    position: absolute !important;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    padding: 0 !important;
+    margin: -1px !important;
+  }
+  
+  html {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .table-wrap {
+    margin-top: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  caption {
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: right;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: normal;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  .total td {
+    background-color: #fff3cd;
+  }
+  
+  .current {
+    font-style: italic;
+  }
+
+  .description {
+    font-style: italic;
+    color: #666;
+  }
+
+  .year {
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  #years {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+    padding-top: 10px; 
+  }
+  
+  #years span[class] {
+    padding: 10px;
+    display: inline-block;
+  }
+  
+   h1 .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
