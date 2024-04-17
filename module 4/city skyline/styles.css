@@ -318,3 +318,23 @@
         );
     }
   } 
+  .shooting-star {
+    position: absolute;
+    top: -10vh; /* Start above the screen */
+    width: 1px;
+    height: 1px;
+    background-color: #ffffff;
+    animation: shootingStarAnim linear infinite;
+  }
+  
+  @keyframes shootingStarAnim {
+    from {
+      transform: translateY(-10vh) rotate(45deg); /* Start position */
+      opacity: 1;
+    }
+    to {
+      transform: translateY(110vh) rotate(45deg); /* End position */
+      opacity: 0;
+    }
+  }
+  
